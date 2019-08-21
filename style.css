@@ -41,6 +41,7 @@
  .full{
      height: 100vh;
      min-height: 100vh;
+     position: relative;
  }
 
  .head{
@@ -94,4 +95,14 @@ body{
 
      background-color: #EEE0CB;
 }
+
+.color{
+    
+    background: transparent;
+}
+
+
+  .color{
+    background-color: #EEE0CB;
+  }
 
