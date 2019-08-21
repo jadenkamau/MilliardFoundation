@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap');
+
+
+
+.bgimage{
+    margin-top: 5rem;
+      } 
+ #textin{
+     font-family: 'Cormorant SC', serif;
+     font-weight: 100;
+ }
+
+ #fontwa{
+     font-family: 'Halant', serif;
+
+     font-weight: 100;
+     color: black;
+ }
+
+ #fontwab{
+     font-family: 'Halant', serif;
+
+     font-weight: 500;
+ }
+
+ #boldin{
+     font-weight: 900;
+ }
+
+ #mainNavbar .nav-link{
+     color: black;
+ }
+
+ #titles{
+     font-family: 'Cormorant Garamond', serif;
+ }
+
+ .full{
+     height: 100vh;
+     min-height: 100vh;
+ }
+
+ .head{
+     background-image: url("https://images.unsplash.com/photo-1497528892195-b4ee7ea4f8bc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+     height: 100%;
+     width: 100%;
+
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+    
+ 
+     
+ }
+
+
+
+.jumbotron1 {
+ background-image: url("https://images.unsplash.com/photo-1544476866-ce192b63bd7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1919&q=80");
+ background-position: center;
+background-size: cover;
+height: 100%;
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+filter: brightness(150%);
+
+
+border-radius: 0 !important;
+
+
+}
+
+.jumbotron2 {
+    background-image: url("https://images.unsplash.com/photo-1544573791-2ffdca989130?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-position: center;
+   background-size: cover;
+   height: 100%;
+   -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(50%);
+   
+   border-radius: 0 !important;
+   }
+
+
+body{
+    font-family: 'Halant', serif;
+
+     font-weight: 100;
+     color: black;
+
+     background-color: #EEE0CB;
+}
+
