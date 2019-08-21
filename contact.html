@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,17 +18,51 @@
 
     <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
 
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
+    
        
 
-    <div class="container d-flex align-items-center  justify-content-center">
+    
+
+<section class="col-md-12">
+            <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light  fixed-top text-light bg-transparent  position-static pb-2">
+                    <div class="container">
+                <a class="navbar-brand"  id="titles" href="index.html"> Maillard Foundation</a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsin">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse color justify-content-end text-dark" id="navbarsin">
+                    <ul class="navbar-nav" id="fontwa">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Index</a>
+                        </li>
+        
+                        <li class="navbar-nav">
+                            <a href="index.html" class="nav-link">About</a>
+                        </li>
+        
+                        <li class="navbar-nav">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                    </ul>
+                </div>
+                </div>
+        
+        
+            </nav>
+
+        </section>
     <!--Section: Contact v.2-->
-<section class="mb-4">
+    <div class="container d-flex align-items-center  justify-content-center">
+<section >
 
         <!--Section heading-->
         <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -39,7 +73,7 @@
         <div class="row">
     
             <!--Grid column-->
-            <div class="col-md-9 mb-md-0 mb-5">
+            <div class="col-md-12 mb-md-0 mb-5">
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
     
                     <!--Grid row-->
@@ -94,8 +128,8 @@
     
                 </form>
     
-                <div class=" col-md-6 text-center text-md-left">
-                    <a class="btn btn-primary" >Send</a>
+                <div class=" text-center text-md-left">
+                    <a class="btn btn-primary bg-info border-0 decoration-none" >Send</a>
                 </div>
                 <div class="status"></div>
             </div>
